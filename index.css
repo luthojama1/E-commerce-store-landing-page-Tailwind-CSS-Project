@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+
+    /* COLORS */
+    --primary: #2B170C;
+    --secondary: #fefefed2;
+    --fallback: #E5DDD6;
+
+    --border-clr: #C5B8AA;
+
+    --button-clr: #9A7247;
+    --hover-clr: #A07A56;
+
+    --headings: #1F1712;
+    --body-text: #4B4038;
+
+    --blck-text: #050505e6;
+    --white-text: #f7f7f7;
+
+    /* Section */
+
+    --section-height: 100dvh;
+}

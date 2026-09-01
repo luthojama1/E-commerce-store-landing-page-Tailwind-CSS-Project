@@ -553,3 +553,119 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.m-0 {
+  margin: 0px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.box-border {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[100dvh\] {
+  height: 100dvh;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.bg-\[var\(--primary\)\] {
+  background-color: var(--primary);
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-\[var\(--white-text\)\] {
+  color: var(--white-text);
+}
+
+:root{
+  /* COLORS */
+  --primary: #2B170C;
+  --secondary: #fefefed2;
+  --fallback: #E5DDD6;
+  --border-clr: #C5B8AA;
+  --button-clr: #9A7247;
+  --hover-clr: #A07A56;
+  --headings: #1F1712;
+  --body-text: #4B4038;
+  --blck-text: #050505e6;
+  --white-text: #f7f7f7;
+  /* Section */
+  --section-height: 100dvh;
+}
